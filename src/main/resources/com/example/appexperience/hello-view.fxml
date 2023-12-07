@@ -8,10 +8,8 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #002752;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #002752;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.HelloController">
    <children>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" />
       <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffd60a" height="292.0" layoutX="31.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="208.0" />
       <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffee99" height="285.0" layoutX="32.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
       <Label layoutX="48.0" layoutY="250.0" text="Iniciar Sesión" textFill="#ffd60a">
@@ -29,12 +27,13 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </TextField>
-      <Button layoutX="48.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="175.0" text="Button" />
+      <Button fx:id="buttonLogIn" layoutX="48.0" layoutY="430.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="25.0" prefWidth="175.0" text="Button" />
       <Label layoutX="48.0" layoutY="380.0" text="No recuerdo mi contraseña" textFill="#002752">
          <font>
             <Font size="10.0" />
          </font>
       </Label>
       <Label layoutX="48.0" layoutY="478.0" text="Label" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>

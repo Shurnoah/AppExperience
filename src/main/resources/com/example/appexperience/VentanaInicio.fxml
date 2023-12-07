@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.VentanaInicioController">
+   <children>
+      <Button fx:id="ButtonTst" layoutX="55.0" layoutY="542.0" mnemonicParsing="false" onAction="#backToLog" text="volverIniciarSesion(Eliminar)" />
+      <Label layoutX="95.0" layoutY="209.0" text="Inicio (Perfil)" />
+      <Button fx:id="ButtonActividadesGuardadas" layoutX="60.0" layoutY="366.0" mnemonicParsing="false" onAction="#irAActividadesGuardadas" text="Actividades Guardades" />
+      <Button fx:id="ButtonBuscqueda" layoutX="55.0" layoutY="442.0" mnemonicParsing="false" onAction="#irABusqueda" text="Busqueda" />
+      <Button fx:id="ButtonActividadesReservadas" layoutX="59.0" layoutY="331.0" mnemonicParsing="false" onAction="#irAActividadesReservadas" text="Actividades Reservadas" />
+      <Button fx:id="ButtonNovedades" layoutX="142.0" layoutY="442.0" mnemonicParsing="false" onAction="#irANovedades" text="Novedades" />
+      <Label fx:id="LabelNombreUser" layoutX="89.0" layoutY="90.0" onMouseClicked="#modficadoNombreUser" text="Nombre Ususario" />
+      <Button fx:id="ButtonmodificarDatos" layoutX="79.0" layoutY="120.0" mnemonicParsing="false" onAction="#irAModificarDatos" text="modificar datos" />
+   </children>
+</AnchorPane>
