@@ -1,0 +1,8 @@
+.root {
+  -fx-background-color: #ffd60a;
+}
+#boton{
+-fx-background-color: #bbffad;
+-fx-font-weight: bold;
+-fx-border-color: #99c7ff;
+}
