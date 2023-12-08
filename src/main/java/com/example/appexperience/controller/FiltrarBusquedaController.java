@@ -19,6 +19,7 @@ public class FiltrarBusquedaController {
         Main HA = new Main();
         HA.changeScene("Busqueda.fxml");
     }
+    public Button buttonGuardarPreferencias;
     public Button buttonInicio;
     public void irAInicio(ActionEvent event) throws IOException {
         Main HA = new Main();

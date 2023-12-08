@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="270.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.appexperience.controller.ReservadasActividadesController">
+    <children>
+        <Label layoutX="75.0" layoutY="193.0" text="Actividades Reservadas" />
+        <Button fx:id="buttonBusqueda" layoutX="23.0" layoutY="469.0" mnemonicParsing="false" onAction="#IrABusqueda" text="Busqueda" />
+        <Button fx:id="buttonInicio" layoutX="196.0" layoutY="469.0" mnemonicParsing="false" onAction="#irAInicio" text="Inicio" />
+        <Button fx:id="buttonNovedades" layoutX="106.0" layoutY="469.0" mnemonicParsing="false" onAction="#irANovedades" text="Novedades" />
+        <Button fx:id="buttonInicioVolver" layoutX="23.0" layoutY="32.0" mnemonicParsing="false" onAction="#irAInicio" text="Inicio" />
+    </children>
+</AnchorPane>
