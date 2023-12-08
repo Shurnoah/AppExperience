@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.BusquedaController">
+   <children>
+      <Label layoutX="109.0" layoutY="218.0" text="Busqueda" />
+      <Button fx:id="buttonInicio" layoutX="53.0" layoutY="459.0" mnemonicParsing="false" onAction="#irAInicio" text="Inicio" />
+      <Button fx:id="buttonAplicarFiltros" layoutX="83.0" layoutY="404.0" mnemonicParsing="false" onAction="#irAAplicarFiltros" text="Aplicar Filtros" />
+      <Button fx:id="buttonNovedades" layoutX="149.0" layoutY="459.0" mnemonicParsing="false" onAction="#irANovedades" text="Novedades" />
+   </children>
+</AnchorPane>

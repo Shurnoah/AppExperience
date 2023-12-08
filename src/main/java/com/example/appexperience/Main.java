@@ -8,14 +8,14 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class Main extends Application {
 
 private static Stage stg;
     @Override
     public void start(Stage stage) throws IOException {
         stg = stage;
         stage.setResizable(false);
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("IniciarSesion.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 270, 600);
         stage.setTitle("Hello!");
         stage.setScene(scene);
@@ -23,7 +23,7 @@ private static Stage stg;
     }
 
     public void changeScene(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxml));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(fxml));
         Parent root = fxmlLoader.load();
         Scene scene = stg.getScene();
         scene.setRoot(root);

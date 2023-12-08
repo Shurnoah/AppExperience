@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #002752;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #002752;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.IniciarSesionController">
    <children>
       <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffd60a" height="292.0" layoutX="31.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="208.0" />
       <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffee99" height="285.0" layoutX="32.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
