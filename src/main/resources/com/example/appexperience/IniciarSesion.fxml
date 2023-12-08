@@ -3,6 +3,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
@@ -10,30 +11,39 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #002752;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.IniciarSesionController">
    <children>
-      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffd60a" height="292.0" layoutX="31.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="208.0" />
-      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffee99" height="285.0" layoutX="32.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
-      <Label layoutX="48.0" layoutY="250.0" text="Iniciar Sesión" textFill="#ffd60a">
+      <ImageView fitHeight="224.0" fitWidth="270.0" layoutX="24.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logoTransparente.png" />
+         </image></ImageView>
+      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffd60a" height="292.0" layoutX="35.0" layoutY="242.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="208.0" />
+      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffee99" height="285.0" layoutX="35.0" layoutY="234.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Label layoutX="48.0" layoutY="250.0" style="-fx-effect: dropshadow(three-pass-box, #002752, 4, 0, 2, 2);;" text="Iniciar Sesión" textFill="#ffd60a">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <TextField layoutX="48.0" layoutY="300.0" prefHeight="31.0" prefWidth="175.0" promptText="Nombre de Usuario" style="-fx-background-radius: 50;">
+      <TextField layoutX="48.0" layoutY="300.0" prefHeight="31.0" prefWidth="175.0" promptText="Nombre de Usuario" style="-fx-background-radius: 50; -fx-text-fill: #003F7A;">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </TextField>
-      <TextField layoutX="47.0" layoutY="345.0" prefHeight="31.0" prefWidth="175.0" promptText="Contraseña" style="-fx-background-radius: 50;">
+      <TextField layoutX="47.0" layoutY="345.0" prefHeight="31.0" prefWidth="175.0" promptText="Contraseña" style="-fx-background-radius: 50; -fx-text-fill: #003F7A;">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </TextField>
-      <Button fx:id="buttonLogIn" layoutX="48.0" layoutY="430.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="25.0" prefWidth="175.0" text="Button" />
       <Label layoutX="48.0" layoutY="380.0" text="No recuerdo mi contraseña" textFill="#002752">
          <font>
-            <Font size="10.0" />
+            <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="48.0" layoutY="478.0" text="Label" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="buttonLogIn" layoutX="48.0" layoutY="430.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="31.0" prefWidth="175.0" style="-fx-background-color: #003F7A; -fx-background-radius: 50px; -fx-text-fill: #FFD60A; -fx-border-color: #002752; -fx-border-width: 0 4px 4px 0; -fx-border-radius: 50px;" text="Iniciar Sesión">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="48.0" layoutY="470.0" text="Crear una cuenta en E%perince" textFill="#002752">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
    </children>
 </AnchorPane>

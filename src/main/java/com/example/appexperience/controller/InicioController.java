@@ -9,11 +9,6 @@ import javafx.scene.input.MouseEvent;
 import java.io.IOException;
 
 public class InicioController {
-    public Button ButtonTst;
-    public void backToLog (ActionEvent event) throws IOException {
-        Main HA = new Main();
-        HA.changeScene("IniciarSesion.fxml"); /////////////////////////////////////////////Eliminar
-    }
     public Button ButtonBuscqueda;
     public void irABusqueda (ActionEvent event) throws IOException {
         Main HA = new Main();
