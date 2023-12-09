@@ -9,14 +9,15 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.Stop?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #FFFEF6;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.FiltrarBusquedaController">
    <children>
-      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffd60a" height="157.0" layoutX="14.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="245.0" />
+      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#70b0ff" height="157.0" layoutX="14.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="245.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002752" height="61.0" layoutX="-12.0" layoutY="539.0" stroke="BLACK" strokeType="INSIDE" width="284.0" />
-      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffee99" height="143.0" layoutX="14.0" layoutY="7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="237.0" />
+      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#99c7ff" height="143.0" layoutX="14.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="237.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002752" height="76.0" layoutX="-5.0" layoutY="-8.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
-      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffd60a" height="222.0" layoutX="18.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="237.0" />
-      <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#ffee99" height="222.0" layoutX="11.0" layoutY="189.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="237.0" />
       <ImageView fitHeight="109.0" fitWidth="118.0" layoutX="155.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/logoTransparente.png" />
@@ -24,6 +25,39 @@
       <Label layoutX="18.0" layoutY="26.0" prefHeight="31.0" prefWidth="89.0" text="Busqueda" textFill="#ffee99">
          <font>
             <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="151.0" fitWidth="237.0" layoutX="23.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/actplaya.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="actPlaya" arcHeight="5.0" arcWidth="5.0" height="109.0" layoutX="14.0" layoutY="124.0" onMouseClicked="#irAActividad" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-width: 50px; -fx-arc-height: 50px;" width="245.0">
+         <fill>
+            <LinearGradient endX="0.5687203791469194" endY="0.07109004739336493" startX="0.5687203791469194" startY="0.5924170616113744">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6200000047683716" green="0.7973333597183228" blue="1.0" opacity="0.805343508720398" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6200000047683716" green="0.7973333597183228" blue="1.0" opacity="0.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="24.0" layoutY="178.0" prefHeight="25.0" prefWidth="166.0" text="Curso de Volley - ball" textFill="#ffee99">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="203.0" prefHeight="21.0" prefWidth="178.0" text=" Playa Real 10:00 - 16:00" textFill="#ffd60a">
+         <font>
+            <Font name="System Bold" size="14.0" />
          </font>
       </Label>
       <Button fx:id="buttonInicio" layoutX="16.0" layoutY="539.0" mnemonicParsing="false" onAction="#irAInicio" prefHeight="45.0" prefWidth="69.0" style="-fx-background-color: rgba(0, 0, 255, 0);">

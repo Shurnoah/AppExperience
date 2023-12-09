@@ -21,7 +21,7 @@ public class OpcionesPerfilController {
         HA.changeScene("Inicio.fxml");
     }
     public Label labelVolver;
-    public void irAInicio (MouseEvent event) throws IOException {
+    public void irAVolver (MouseEvent event) throws IOException {
         Main HA = new Main();
         HA.changeScene("Inicio.fxml");
     }

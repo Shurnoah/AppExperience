@@ -10,6 +10,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #FFFEF6;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appexperience.controller.GuardadasActividadesController">
     <children>
         <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#70b0ff" height="157.0" layoutX="14.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="245.0" />
@@ -20,11 +21,16 @@
             <image>
                 <Image url="@../../../images/logoTransparente.png" />
             </image></ImageView>
-        <Label fx:id="labelVolver" layoutX="18.0" layoutY="26.0" prefHeight="31.0" prefWidth="89.0" onMouseClicked="#irAInicio" text="Actividades Guardadas" textFill="#ffee99">
+        <Label fx:id="labelVolver" layoutX="33.0" layoutY="8.0" onMouseClicked="#irAVolver" prefHeight="68.0" prefWidth="122.0" text="Actividades Guardadas" textFill="#ffee99" wrapText="true">
             <font>
                 <Font name="System Bold" size="16.0" />
             </font>
         </Label>
+        <ImageView fitHeight="43.0" fitWidth="23.0" layoutX="5.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/back.png" />
+            </image>
+        </ImageView>
         <Button fx:id="buttonInicio" layoutX="16.0" layoutY="539.0" mnemonicParsing="false" onAction="#irAInicio" prefHeight="45.0" prefWidth="69.0" style="-fx-background-color: rgba(0, 0, 255, 0);">
             <graphic>
                 <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
@@ -85,4 +91,3 @@
         </Label>
     </children>
 </AnchorPane>
-

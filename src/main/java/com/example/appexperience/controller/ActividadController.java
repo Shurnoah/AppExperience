@@ -27,13 +27,8 @@ public class ActividadController {
         HA.changeScene("Inicio.fxml");
     }
     public Label labelVolver;
-    public void irAInicio (MouseEvent event) throws IOException {
+    public void irAVolver (MouseEvent event) throws IOException {
         Main HA = new Main();
         HA.changeScene("Novedades.fxml");
-    }
-    public Rectangle actPlaya;
-    public void irAActividad(MouseEvent event) throws IOException {
-        Main HA = new Main();
-        HA.changeScene("Actividad.fxml");
     }
 }

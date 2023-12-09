@@ -20,11 +20,16 @@
          <image>
             <Image url="@../../../images/logoTransparente.png" />
          </image></ImageView>
-      <Label fx:id="labelVolver" layoutX="10.0" layoutY="26.0" onMouseClicked="#irAInicio" prefHeight="31.0" prefWidth="150.0" text="Opciones de perfil" textFill="#ffee99">
+      <Label fx:id="labelVolver" layoutX="35.0" layoutY="5.0" onMouseClicked="#irAVolver" prefHeight="61.0" prefWidth="88.0" text="Opciones de perfil" textFill="#ffee99" wrapText="true">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
+      <ImageView fitHeight="43.0" fitWidth="23.0" layoutX="5.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/back.png" />
+         </image>
+      </ImageView>
       <Button fx:id="buttonInicio" layoutX="16.0" layoutY="539.0" mnemonicParsing="false" onAction="#irAInicio" prefHeight="45.0" prefWidth="69.0" style="-fx-background-color: rgba(0, 0, 255, 0);">
          <graphic>
             <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
