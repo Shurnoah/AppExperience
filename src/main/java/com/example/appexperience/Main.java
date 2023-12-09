@@ -17,7 +17,7 @@ private static Stage stg;
         stage.setResizable(false);
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("IniciarSesion.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 270, 600);
-        stage.setTitle("Hello!");
+        stage.setTitle("E%perience App");
         stage.setScene(scene);
         stage.show();
     }
