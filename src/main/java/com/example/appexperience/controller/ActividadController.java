@@ -9,9 +9,8 @@ import javafx.scene.shape.Rectangle;
 
 import java.io.IOException;
 
-public class ReservadasActividadesController {
+public class ActividadController {
     public Button buttonBusqueda;
-
     public void IrABusqueda (ActionEvent event) throws IOException {
         Main HA = new Main();
         HA.changeScene("Busqueda.fxml");
@@ -21,6 +20,7 @@ public class ReservadasActividadesController {
         Main HA = new Main();
         HA.changeScene("Novedades.fxml");
     }
+
     public Button buttonInicio;
     public void irAInicio (ActionEvent event) throws IOException {
         Main HA = new Main();
@@ -29,7 +29,7 @@ public class ReservadasActividadesController {
     public Label labelVolver;
     public void irAInicio (MouseEvent event) throws IOException {
         Main HA = new Main();
-        HA.changeScene("Inicio.fxml");
+        HA.changeScene("Novedades.fxml");
     }
     public Rectangle actPlaya;
     public void irAActividad(MouseEvent event) throws IOException {

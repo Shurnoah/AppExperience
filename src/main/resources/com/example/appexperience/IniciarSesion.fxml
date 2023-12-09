@@ -22,12 +22,12 @@
             <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <TextField layoutX="48.0" layoutY="300.0" prefHeight="31.0" prefWidth="175.0" promptText="Nombre de Usuario" style="-fx-background-radius: 50; -fx-text-fill: #003F7A;">
+      <TextField fx:id="labelUser" layoutX="48.0" layoutY="300.0" prefHeight="31.0" prefWidth="175.0" promptText="Nombre de Usuario" style="-fx-background-radius: 50; -fx-text-fill: #003F7A;">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </TextField>
-      <TextField layoutX="47.0" layoutY="345.0" prefHeight="31.0" prefWidth="175.0" promptText="Contraseña" style="-fx-background-radius: 50; -fx-text-fill: #003F7A;">
+      <TextField fx:id="labelPass" layoutX="47.0" layoutY="345.0" prefHeight="31.0" prefWidth="175.0" promptText="Contraseña" style="-fx-background-radius: 50; -fx-text-fill: #003F7A;">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -41,7 +41,7 @@
          <font>
             <Font name="System Bold" size="14.0" />
          </font></Button>
-      <Label layoutX="48.0" layoutY="470.0" text="Crear una cuenta en E%perince" textFill="#002752">
+      <Label fx:id="labelCrearCuenta"  layoutX="48.0" layoutY="470.0" onMouseClicked="#irACrearCuenta" text="Crear una cuenta en E%perince" textFill="#002752">
          <font>
             <Font size="11.0" />
          </font></Label>

@@ -11,7 +11,10 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="270.0" style="-fx-background-color: #FFFEF6;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.appexperience.controller.ReservadasActividadesController">
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.appexperience.controller.ActividadController"
+            prefHeight="400.0" prefWidth="600.0">
     <children>
         <Rectangle arcHeight="43.0" arcWidth="43.0" fill="#70b0ff" height="157.0" layoutX="14.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="245.0" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002752" height="61.0" layoutX="-12.0" layoutY="539.0" stroke="BLACK" strokeType="INSIDE" width="284.0" />
@@ -21,7 +24,7 @@
             <image>
                 <Image url="@../../../images/logoTransparente.png" />
             </image></ImageView>
-        <Label fx:id="labelVolver" layoutX="18.0" layoutY="26.0" prefHeight="31.0" prefWidth="89.0" onMouseClicked="#irAInicio" text="Actividades Reservadas" textFill="#ffee99">
+        <Label fx:id="labelVolver" layoutX="18.0" layoutY="26.0" prefHeight="31.0" prefWidth="89.0" onMouseClicked="#irAInicio" text="Actividades Guardadas" textFill="#ffee99">
             <font>
                 <Font name="System Bold" size="16.0" />
             </font>
@@ -86,6 +89,3 @@
         </Label>
     </children>
 </AnchorPane>
-
-
-

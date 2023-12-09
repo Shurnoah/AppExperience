@@ -27,7 +27,7 @@
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="LabelNombreUser" layoutX="87.0" layoutY="80.0" onMouseClicked="#modficadoNombreUser" text="Nombre Ususario" textFill="#003f7a">
+      <Label fx:id="LabelNombreUser" layoutX="87.0" layoutY="80.0" onMouseClicked="#modficadoNombreUser" text="Nombre Usuario" textFill="#003f7a" underline="true">
          <font>
             <Font name="System Bold" size="14.0" />
          </font></Label>
@@ -37,7 +37,7 @@
             <Image url="@../../../images/user.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="214.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="202.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/edit.png" />
          </image>
@@ -47,7 +47,7 @@
             <Image url="@../../../images/place.png" />
          </image>
       </ImageView>
-      <Label fx:id="LabelNombreUser1" layoutX="28.0" layoutY="206.0" onMouseClicked="#modficadoNombreUser" text="Datos Predefinidos:" textFill="#003f7a">
+      <Label layoutX="28.0" layoutY="206.0" text="Datos Predefinidos:" textFill="#003f7a">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>

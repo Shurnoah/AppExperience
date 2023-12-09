@@ -21,7 +21,6 @@ public class InicioController {
     }
     public Label LabelNombreUser;
     public void modficadoNombreUser (MouseEvent event) throws IOException {
-//        LabelNombreUser.setStyle("-fx-text-fill: blue; -fx-underline: true;");
         Main HA = new Main();
         HA.changeScene("OpcionesPerfil.fxml");
     }

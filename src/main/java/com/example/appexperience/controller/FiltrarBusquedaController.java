@@ -13,7 +13,6 @@ public class FiltrarBusquedaController {
         HA.changeScene("Novedades.fxml");
     }
     public Button buttonBusqueda;
-    public Button buttonBusquedaVolver;
     public Button buttonBusquedaIcono;
     public void irABusqueda(ActionEvent event) throws IOException {
         Main HA = new Main();
